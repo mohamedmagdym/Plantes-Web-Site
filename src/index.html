@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link href="./all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./animate.css" />
+  </head>
+  <body class="bg-green-950 scroll-smooth">
+    <header
+      class="p-2 shadow-2xl backdrop-blur-2xl shadow-black sticky top-0 z-50"
+    >
+      <nav
+        class="mx-auto container flex justify-between p-3 m-0 justify-items-center lg:px-15"
+      >
+        <div class="logo-text text-3xl text-white">plants place</div>
+        <div class="links flex items-center">
+          <div class="button md:hidden">
+            <button onclick="">
+              <i class="fa fa-list-squares fa-2xl text-amber-400"></i>
+            </button>
+          </div>
+          <ul
+            class="md:flex gap-x-10 justify-items-center md:mr-2 md:pt-1.5 hidden"
+          >
+            <li class="">
+              <a
+                class="decoration-0 text-white text-[1.2rem] capitalize hover:text-amber-400 transition 0.3s"
+                href="#home"
+                >home</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="decoration-0 text-white text-[1.2rem] capitalize hover:text-amber-400 transition 0.3s"
+                href="#about_us"
+                >about</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="decoration-0 text-white text-[1.2rem] capitalize hover:text-amber-400 transition 0.3s"
+                href="#popular"
+                >popular</a
+              >
+            </li>
+            <li class="">
+              <a
+                class="decoration-0 text-white text-[1.2rem] capitalize hover:text-amber-400 transition 0.3s"
+                href="#sections"
+                >sections</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="scroll-mt-20" id="home">
+      <section
+        class="container mx-auto grid-cols-1 md:grid-cols-2 grid items-center lg:min-h-[90vh] md:min-h-[70vh] md:px-5 lg:mb-40"
+      >
+        <div
+          class="part1 text-left text-white relative z-10 animate__animated animate__fadeInLeftBig"
+        >
+          <h3
+            class="lg:text-6xl font-bold lg:leading-19 md:leading-10 md:text-4xl md:pt-16 text-[2.5rem] leading-10 md:text-left text-center"
+          >
+            <span class="text-amber-400">plants</span> make a positive
+            <span class="text-amber-400">impact</span> on your environment
+          </h3>
+          <p
+            class="font-[Lobster] lg:pt-4 lg:leading-6 lg:text-[1rem] text-white opacity-80 md:text-[1rem] md:pt-2 md:leading-5 lg:w-10/12 text-[0.8rem] pt-1 w-11/12 pb-4 md:text-left text-center"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia
+            numquam itaque aspernatur dignissimos repudiandae ipsum officia,
+            nobis alias iure. Corrupti optio illum magni magnam perspiciatis
+            excepturi voluptatibus architecto debitis iusto!
+          </p>
+          <button
+            class="hover:bg-gradient-to-r from-amber-200 to-amber-500 transition-all duration-300 lg:w-46 lg:mt-4 lg:text-[1.2rem] rounded-2xl lg:h-13 text-white lg:p-3 bg-amber-400 text-center md:text-[1.1rem] md:w-35 md:h-12 w-28 h-10 text-[0.9rem]"
+          >
+            shop new <i class="fa fa-shop fa"></i>
+          </button>
+          <button
+            class="hover:bg-amber-400 lg:w-46 lg:mt-4 lg:text-[1.2rem] rounded-2xl lg:h-13 text-white lg:p-3 bg-inherit border-2 border-amber-400 transition duration-300 text-center ml-3 md:text-[1.1rem] md:w-35 md:h-12 w-28 h-10 text-[0.9rem]"
+          >
+            know more <i class="fa fa-book fa"></i>
+          </button>
+          <p
+            class="lg:pt-1 leading-6 lg:text-[1rem] text-white opacity-80 md:text-[0.8rem] text-[0.7rem]"
+          >
+            this will get it free
+          </p>
+        </div>
+        <div
+          class="part2 grid justify-items-center relative transition drop-shadow-sm drop-shadow-amber-400 animate__animated animate__fadeInRightBig"
+        >
+          <img
+            src="../assets/img/home.png"
+            alt="not found"
+            width="80%"
+            height="80%"
+          />
+          <i class="fa fa-star absolute top-5 fa-xl right-7 text-amber-400"></i>
+          <i class="fa fa-tree absolute top-24 left-4 fa-xl text-amber-400"></i>
+          <i
+            class="fa fa-house-flood-water absolute bottom-8 right-18 fa-xl text-amber-400"
+          ></i>
+        </div>
+      </section>
+
+      <section
+        id="about_us"
+        class="aboutUsSection aboutUs container relative z-10 mx-auto md:scroll-mt-25 lg:min-h-[90vh] md:min-h-[70vh] md:px-5 lg:mb-40"
+      >
+        <div class="aboutUsText text-center">
+          <h3
+            class="aboutUsTextH3 text-amber-400 capitalize text-5xl lg:text-8xl"
+          >
+            about us
+          </h3>
+          <p class="aboutUsTextp md:text-2xl text-white md:leading-12">
+            follow instructions for more
+          </p>
+        </div>
+        <div
+          class="aboutUscategory md:grid-cols-2 grid items-center gap-4 md:gap-2 md:mt-12"
+        >
+          <div
+            class="aboutUSimg1 grid justify-items-center drop-shadow-sm drop-shadow-amber-400"
+          >
+            <img
+              src="../assets/img/plant-1.png"
+              alt=""
+              width="80%"
+              height="80%"
+            />
+          </div>
+          <div
+            class="aboutUscategoryText w-[95%] xl:w-[60%] text-center md:text-left"
+          >
+            <h3 class="text-white capitalize lg:text-6xl text-4xl">
+              make your<span class="text-amber-400"> organic </span>garden
+            </h3>
+            <p class="aboutUscategorypara text-white leading-5 mt-6 md:w-full">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, ducimus aliquam quod eaque incidunt deserunt fuga sint
+              explicabo provident magni numquam similique cupiditate mollitia
+              deleniti molestiae aut eligendi delectus adipisci!
+            </p>
+          </div>
+        </div>
+      </section>
+      <section
+        class="bg-green-800 xl:p-8 min-h-[850px] lg:p-3 md:scroll-mt-25 lg:min-h-[90vh] md:min-h-[70vh] md:px-5 lg:mb-40 py-5"
+        id="popular"
+      >
+        <h3
+          class="text-amber-400 text-center pt-10 font-bold text-5xl lobster-font tracking-wide"
+        >
+          your choice plant
+        </h3>
+        <p class="pt-3 text-center text-xl text-amber-50 jost-font">
+          follow instractions for more
+        </p>
+        <div class="container mx-auto mt-23">
+          <div
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 justify-center items-center sm:gap-x-5 sm:gap-y-20 lg:min-h-[70vh] md:min-h-[50vh] text-center text-amber-50"
+          >
+            <div
+              class="bg-green-950 flex flex-col gap-5 items-center h-80 p-4 md:mt-10 mx-3 my-10"
+            >
+              <div class="w-[60%] h-[60%] relative">
+                <img
+                  src="../assets/img/cart-1.png"
+                  alt=""
+                  class="absolute lg:-top-22 md:-top-35 xl:-top-40 -top-25"
+                />
+              </div>
+              <p class="jost-font text-xl pt-3">img number 1</p>
+              <h3 class="lobster-font text-4xl">boston fern</h3>
+              <div>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div
+                class="xl: flex flex-row justify-between items-center w-full mt-3 lg: px-5"
+              >
+                <h3 class="text-2xl lobster-font">5$</h3>
+                <button
+                  class="p-3 bg-amber-500 rounded-3xl hover:cursor-pointer hover:bg-amber-100 transition hover:text-black"
+                >
+                  choise
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-green-950 flex flex-col gap-5 items-center h-80 p-4 md:mt-10 mx-3 my-10"
+            >
+              <div class="w-[60%] h-[60%] relative">
+                <img
+                  src="../assets/img/cart-2.png"
+                  alt=""
+                  class="absolute lg:-top-22 md:-top-35 xl:-top-40 -top-25"
+                />
+              </div>
+              <p class="jost-font text-xl pt-3">img number 2</p>
+              <h3 class="lobster-font text-4xl">boston fern</h3>
+              <div>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div
+                class="xl: flex flex-row justify-between items-center w-full mt-3 lg: px-5"
+              >
+                <h3 class="text-2xl lobster-font">5$</h3>
+                <button
+                  class="p-3 bg-amber-500 rounded-3xl hover:cursor-pointer hover:bg-amber-100 transition hover:text-black"
+                >
+                  choise
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-green-950 flex flex-col gap-5 items-center h-80 p-4 md:mt-10 mx-3 my-10"
+            >
+              <div class="w-[60%] h-[60%] relative">
+                <img
+                  src="../assets/img/cart-3.png"
+                  alt=""
+                  class="absolute lg:-top-22 md:-top-35 xl:-top-40 -top-25"
+                />
+              </div>
+              <p class="jost-font text-xl pt-3">img number 3</p>
+              <h3 class="lobster-font text-4xl">boston fern</h3>
+              <div>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div
+                class="xl: flex flex-row justify-between items-center w-full mt-3 lg: px-5"
+              >
+                <h3 class="text-2xl lobster-font">5$</h3>
+                <button
+                  class="p-3 bg-amber-500 rounded-3xl hover:cursor-pointer hover:bg-amber-100 transition hover:text-black"
+                >
+                  choise
+                </button>
+              </div>
+            </div>
+            <div
+              class="bg-green-950 flex flex-col gap-5 items-center h-80 p-4 md:mt-10 mx-3 my-10"
+            >
+              <div class="w-[60%] h-[60%] relative">
+                <img
+                  src="../assets/img/cart-4.png"
+                  alt=""
+                  class="absolute lg:-top-22 md:-top-35 xl:-top-40 -top-25"
+                />
+              </div>
+              <p class="jost-font text-xl pt-3">img number 4</p>
+              <h3 class="lobster-font text-4xl">boston fern</h3>
+              <div>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star text-amber-400"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <div
+                class="xl: flex flex-row justify-between items-center w-full mt-3 lg: px-5"
+              >
+                <h3 class="text-2xl lobster-font">5$</h3>
+                <button
+                  class="p-3 bg-amber-500 rounded-3xl hover:cursor-pointer hover:bg-amber-100 transition hover:text-black"
+                >
+                  choise
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="sections" class="min-h-[70vh]">
+        <div class="container mx-auto md:my-5 lg:my-0">
+          <h3 class="text-amber-500 lg:text-7xl md:text-5xl text-center lobster-font">
+            castom review
+          </h3>
+          <p class="jost-font text-center text-amber-50 text-xl">
+            follow instractions for more
+          </p>
+          <div class="mx-auto grid lg:grid-cols-3 md:grid-cols-2 lg:w-[90%] gap-x-5 md:p-5">
+            <div class="p-5 bg-green-800 text-amber-50 rounded-xl lg:mt-20 md:mt-15">
+              <p class="lobster-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                natus, expedita dolore distinctio unde inventore similique quas
+                eum voluptatibus sunt deserunt, eveniet, corporis vel porro
+                aliquam voluptates iste magnam necessitatibus!
+              </p>
+              <div class="flex flex-row mt-5 items-center justify-between">
+                <div class="flex flex-row">
+                  <div class="w-[15%] h-[10%]">
+                    <img
+                      class="rounded-full"
+                      src="../assets/img/review-1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mx-5">
+                    <p class="text-amber-500 text-xl jost-font">
+                      mirhan anwer
+                    </p>
+                    <p class="text-amber-50 text-xl jost-font">designer</p>
+                  </div>
+                </div>
+                <div><p class="text-7xl lobster-font">,,</p></div>
+              </div>
+            </div>
+            <div class="p-5 bg-green-800 text-amber-50 rounded-xl lg:mt-20 md:mt-15">
+              <p class="lobster-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                natus, expedita dolore distinctio unde inventore similique quas
+                eum voluptatibus sunt deserunt, eveniet, corporis vel porro
+                aliquam voluptates iste magnam necessitatibus!
+              </p>
+              <div class="flex flex-row mt-5 items-center justify-between">
+                <div class="flex flex-row">
+                  <div class="w-[15%] h-[10%]">
+                    <img
+                      class="rounded-full"
+                      src="../assets/img/review-2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mx-5">
+                    <p class="text-amber-500 text-xl jost-font">
+                      mirhan anwer
+                    </p>
+                    <p class="text-amber-50 text-xl jost-font">designer</p>
+                  </div>
+                </div>
+                <div><p class="text-7xl lobster-font">,,</p></div>
+              </div>
+            </div>
+            <div class="p-5 bg-green-800 text-amber-50 rounded-xl lg:mt-20 md:mt-15 ">
+              <p class="lobster-font">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                natus, expedita dolore distinctio unde inventore similique quas
+                eum voluptatibus sunt deserunt, eveniet, corporis vel porro
+                aliquam voluptates iste magnam necessitatibus!
+              </p>
+              <div class="flex flex-row mt-5 items-center justify-between">
+                <div class="flex flex-row">
+                  <div class="w-[15%] h-[10%]">
+                    <img
+                      class="rounded-full"
+                      src="../assets/img/review-3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mx-5">
+                    <p class="text-amber-500 text-xl jost-font">
+                      mirhan anwer
+                    </p>
+                    <p class="text-amber-50 text-xl jost-font">designer</p>
+                  </div>
+                </div>
+                <div><p class="text-7xl lobster-font">,,</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      class="bg-[#fcfcea] pt-12 pb-6 text-gray-700 scroll-mt-5 relative mt-20"
+      id="footer"
+    >
+      <div
+        class="bg-green-900 p-5 rounded-md text-white w-[90%] sm:w-[75%] flex flex-col gap-2 mx-auto min-h-20 absolute top-0 left-[50%] transform -translate-1/2"
+      >
+        <h3 class="text-xl sm:text-3xl font-jost font-bold">
+          subscribe for this site
+        </h3>
+        <div class="flex flex-col sm:flex-row gap-x-3 gap-y-3">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="sm:w-[85%] bg-white text-black border p-2 rounded-md outline-none"
+          />
+          <button
+            class="bg-green-700 font-jost cursor-pointer text-white font-semibold py-3 px-6 rounded-md hover:bg-green-600 transition duration-300 flex items-center justify-center"
+          >
+            Subscribe
+            <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+      </div>
+      <div
+        class="container mx-auto px-4 mt-20 relative text-center sm:text-start"
+      >
+        <div
+          class="flex justify-center space-x-6 absolute left-[50%] transform -translate-x-1/2 z-10 -top-4 backdrop-blur-lg px-4 text-xl"
+        >
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="hover:text-gray-900 transition duration-300"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+
+        <hr class="border-gray-300 mb-8 max-w-4xl mx-auto" />
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mt-20 mx-auto"
+        >
+          <div class="flex flex-col items-center mb-6 md:mb-0">
+            <i class="fas fa-leaf text-green-700 text-3xl mb-2"></i>
+            <p class="text-xl font-bold text-gray-800 font-lobster">
+              plantes place.
+            </p>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-gray-800 font-lobster">
+              Quick Link
+            </h4>
+            <ul class="space-y-2 text-sm font-jost">
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Plants</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Flowers</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Gardening</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Seeds</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Shipping</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-gray-800 font-lobster">
+              Popular Services
+            </h4>
+            <ul class="space-y-2 text-sm font-jost">
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Tree Planting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Grass Cutting</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Weeds Control</a
+                >
+              </li>
+              <li>
+                <a href="#" class="hover:text-green-700 transition duration-300"
+                  >Project</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="text-lg font-semibold mb-4 text-gray-800 font-lobster">
+              Contact Us
+            </h4>
+            <p class="text-sm space-y-2 font-jost">
+              <span class="block">+88 333 78 901</span>
+              <a
+                href="mailto:lightcodecamp@gmail.com"
+                class="block hover:text-green-700 transition duration-300"
+                >lightcodecamp@gmail.com</a
+              >
+              <span class="block pt-2">1234 Tailwind Ave, CSS City,</span>
+              <span class="block">Webland 56789, USA</span>
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="mt-10 pt-4 border-t border-gray-300 text-center text-xs text-gray-500 max-w-4xl mx-auto font-jost"
+        >
+          <p>Copyright &copy; 2024 LightCode All rights reserved.</p>
+          <p>created by mohamed magdy.</p>
+        </div>
+      </div>
+    </footer>
+    <div class="bottom-8 right-12 hover:text-amber-100 z-100 fixed" id="upper">
+      <button
+        class="bg-amber-500 text-xl px-4 py-3 rounded-full cursor-pointer"
+      >
+        up <i class="fa fa-arrow-alt-circle-up align-middle"></i>
+      </button>
+    </div>
+  </body>
+</html>

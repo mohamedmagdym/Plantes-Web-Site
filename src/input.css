@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+  font-family: 'Lobster';
+  src: url('../Lobster/Lobster-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Jost';
+  src: url('../Jost/Jost-VariableFont_wght.ttf') format('truetype');
+}
+.logo-text ,.part1 p ,.aboutUsTextH3 {
+    font-family: Lobster  , sans-serif;
+}
+.links ul  li a , .part1 h3 , .part1 button , .aboutUsTextp ,.aboutUscategory , .aboutUscategorypara {
+        font-family: Jost  , sans-serif;
+        font-weight: bold;
+}
+.jost-font{
+  font-family: Jost  , sans-serif;
+    font-weight: bold;
+}
+.lobster-font{
+      font-family: Lobster  , sans-serif;
+}
